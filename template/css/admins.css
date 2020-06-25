@@ -1,0 +1,114 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+ul li
+{
+	list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container
+{
+	width: 90%;
+	margin: 0 auto;
+}
+header
+{
+	height: 10vh;
+	background: #ebf8e1;
+	display: flex;
+	align-items: center;
+
+}
+.header__inner
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+ul
+{
+	display: flex;
+}
+ul li+li
+{
+	margin-left: 20px;
+}
+  a
+{
+	color: black;
+}
+  a:hover
+{
+	cursor: pointer;
+	color: #3f87a6;
+}
+header h1
+{
+	font-size: 22px;
+	 
+	color: #3f87a6;
+	display: flex;
+	align-items: center;
+}
+.products-table
+{
+	background:  #3f87a6;
+	min-height: 90vh;
+
+}
+.products__inner
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+table
+{
+	color: #ebf8e1;
+}
+tr td
+{
+	padding: 10px 20px;
+}
+tr td a:hover
+{
+	color: #ebf8e1;
+}
+tr th
+{
+font-weight: 500;
+padding: 10px 20px;
+color: #5e5650;
+font-size: 20px;
+}
+a[id = edit]
+{
+	color: #f57311;
+	font-weight: 600;
+	font-size: 19px;
+}
+a[id = delete]
+{
+	color: #f01d1d;
+	font-weight: 600;
+	font-size: 19px;
+}
+td[id = success]
+{
+	color: #45d126;
+}
+caption
+{
+	padding-bottom: 20px;
+	font-size: 22px;
+}
